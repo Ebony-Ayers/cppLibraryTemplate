@@ -51,3 +51,10 @@ build_release/
 build_linux64/
 build_linux32/
 build_win32/
+
+tests/build/
+tests/build_debug/
+tests/build_release/
+tests/build_linux64/
+tests/build_linux32/
+tests/build_win32/
