@@ -1,7 +1,9 @@
 #include <iostream>
 
+#include "../../src/library.hpp"
+
 int main(int /*argc*/, const char** /*argv*/)
 {
-	std::cout << "hello world" << std::endl;
+	foo();
 	return 0;
 }
