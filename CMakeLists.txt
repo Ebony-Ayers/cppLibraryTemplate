@@ -65,7 +65,7 @@ add_subdirectory(src)
 target_link_libraries(${primary_target_name} PRIVATE ${project_options_library})
 
 #Speeds up compilation
-option(ENABLE_UNITY "Enable Unity builds of projects" ON)
+option(ENABLE_UNITY "Enable Unity builds of projects" OFF)
 if(ENABLE_UNITY)
   # Add for any project you want to apply unity builds for
   set_target_properties(${primary_target_name} PROPERTIES UNITY_BUILD ON)
